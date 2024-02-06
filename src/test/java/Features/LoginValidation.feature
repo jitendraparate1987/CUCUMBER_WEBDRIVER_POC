@@ -1,5 +1,6 @@
 Feature: Login Validation on Markerspro App
 
+@sanity
 Scenario: Login to Markerspro App with Valid Login Credentials
 Given Navigate to Markerspro App
 When enter the username "INMATRIXPROD"
@@ -7,7 +8,7 @@ When enter the password "Bj9Q28oeNbcu9Lg"
 When submit the credentials
 Then Validate dashboard is displayed
 
-
+@regression
 Scenario: Login to Markerspro App with Invalid Login Credentials
 Given Navigate to Markerspro App
 When enter the username "xyz"

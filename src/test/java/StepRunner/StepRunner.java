@@ -11,7 +11,9 @@ import io.cucumber.junit.CucumberOptions;
 		 glue="StepDefinitions",
 		 monochrome = true,
 		 dryRun = false,
-		 plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
+		 plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+				 "rerun:target/rerun.text" 
+		 }
 		)
 	
 
