@@ -44,7 +44,7 @@
     <version>4.16.1</version>
 </dependency>
 
-<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok : This is used for Jenkins -->
 <dependency>
     <groupId>org.projectlombok</groupId>
     <artifactId>lombok</artifactId>

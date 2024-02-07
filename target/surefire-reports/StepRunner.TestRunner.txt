@@ -1,7 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: StepRunner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 31.083 s <<< FAILURE! - in StepRunner.TestRunner
-Login to Markerspro App with Valid Login Credentials(Login Validation on Markerspro App)  Time elapsed: 22.738 s  <<< FAILURE!
-org.junit.ComparisonFailure: expected:<Dashboard[]> but was:<Dashboard[s]>
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 23.795 s - in StepRunner.TestRunner

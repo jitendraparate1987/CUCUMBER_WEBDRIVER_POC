@@ -80,7 +80,7 @@ public class LoginStepDefinitions {
         
     	//DashboardPage.waitForPageToLoad();
     	String message = DashboardPage.verifyDashboardTitle();
-    	assertEquals(message,"Dashboards");
+    	assertEquals(message,"Dashboard");
     	
     	
     }
