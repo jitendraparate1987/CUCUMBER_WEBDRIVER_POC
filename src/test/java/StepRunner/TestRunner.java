@@ -14,12 +14,12 @@ import io.cucumber.junit.CucumberOptions;
 		 plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 				 "rerun:target/rerun.text",
 				 "html:target/cucumber-report.html",
-					"json:target/cucumber-report.json"
+				 "json:target/cucumber-report.json"
 		 }
 		)
 	
 
 
-public class StepRunner {
+public class TestRunner {
 	
 }
