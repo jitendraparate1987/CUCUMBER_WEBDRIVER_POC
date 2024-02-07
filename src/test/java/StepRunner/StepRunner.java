@@ -12,7 +12,8 @@ import io.cucumber.junit.CucumberOptions;
 		 monochrome = true,
 		 dryRun = false,
 		 plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
-				 "rerun:target/rerun.text" 
+				 "rerun:target/rerun.text",
+				 "html: target/htmlreport.html"
 		 }
 		)
 	
