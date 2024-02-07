@@ -13,7 +13,8 @@ import io.cucumber.junit.CucumberOptions;
 		 dryRun = false,
 		 plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 				 "rerun:target/rerun.text",
-				 "html: target/htmlreport.html"
+				 "html:target/cucumber-report.html",
+					"json:target/cucumber-report.json"
 		 }
 		)
 	
