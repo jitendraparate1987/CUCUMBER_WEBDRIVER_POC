@@ -44,6 +44,15 @@
     <version>4.16.1</version>
 </dependency>
 
+<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+<dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.30</version>
+    <scope>provided</scope>
+</dependency>
+
+
 </dependencies>
 
 <build>
@@ -54,7 +63,6 @@
             <version>2.22.2</version> <!-- Use a version that's compatible with your setup -->
             <configuration>
                 <includes>
-                     
                 </includes>
             </configuration>
         </plugin>
