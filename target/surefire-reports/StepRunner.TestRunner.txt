@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: StepRunner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 23.795 s - in StepRunner.TestRunner
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 22.859 s - in StepRunner.TestRunner
